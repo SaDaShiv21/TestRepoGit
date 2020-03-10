@@ -1,2 +1,3 @@
 # TestRepoGit
-this repository is created to Learn
+This repository is created to Learn git operations
+
