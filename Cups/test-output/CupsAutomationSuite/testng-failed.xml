@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CupsAutomationSuite]">
+  <parameter name="vantageUN" value="sysadmin"/>
+  <parameter name="dbName" value="CupsAutomation2"/>
+  <parameter name="dbType" value="MSSQL"/>
+  <parameter name="dbHost" value="192.168.117.26"/>
+  <parameter name="ReviewerUN" value="reviewer"/>
+  <parameter name="vantageIP" value="192.168.125.234"/>
+  <parameter name="dbPwd" value="Cert@1234"/>
+  <parameter name="vantagePwd" value="facetime"/>
+  <parameter name="ReviewerPwd" value="facetime"/>
+  <parameter name="configPropertiesFile" value="./configFiles/config.properties"/>
+  <parameter name="cupstestdata" value=".\configFiles\CupsTestData.xlsx"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="dbUN" value="sa"/>
+  <test thread-count="5" name="CupsAutomation(failed)">
+    <classes>
+      <class name="com.actiance.tests.CupsTestCases">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="executeTest" invocation-numbers="23 24"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.actiance.tests.CupsTestCases -->
+    </classes>
+  </test> <!-- CupsAutomation(failed) -->
+</suite> <!-- Failed suite [CupsAutomationSuite] -->

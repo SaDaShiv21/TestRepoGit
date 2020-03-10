@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CupsAutomationSuite" duration-ms="322972" started-at="2020-02-27T09:15:48Z" finished-at="2020-02-27T09:21:11Z">
+    <groups>
+    </groups>
+    <test name="CupsAutomation" duration-ms="322972" started-at="2020-02-27T09:15:48Z" finished-at="2020-02-27T09:21:11Z">
+      <class name="com.actiance.tests.CupsTestCases">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="beforeSuite" is-config="true" duration-ms="37642" started-at="2020-02-27T09:15:11Z" finished-at="2020-02-27T09:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.117.26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CupsAutomation2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[./configFiles/config.properties]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.125.234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sysadmin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[facetime]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[.\configFiles\CupsTestData.xlsx]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Cert@1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[MSSQL]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[reviewer]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[facetime]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="35097" started-at="2020-02-27T09:15:50Z" data-provider="map" finished-at="2020-02-27T09:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="13043" started-at="2020-02-27T09:16:25Z" data-provider="map" finished-at="2020-02-27T09:16:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="10461" started-at="2020-02-27T09:16:38Z" data-provider="map" finished-at="2020-02-27T09:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="6937" started-at="2020-02-27T09:16:48Z" data-provider="map" finished-at="2020-02-27T09:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="4910" started-at="2020-02-27T09:16:55Z" data-provider="map" finished-at="2020-02-27T09:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="6261" started-at="2020-02-27T09:17:00Z" data-provider="map" finished-at="2020-02-27T09:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="8428" started-at="2020-02-27T09:17:06Z" data-provider="map" finished-at="2020-02-27T09:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="5871" started-at="2020-02-27T09:17:15Z" data-provider="map" finished-at="2020-02-27T09:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="4968" started-at="2020-02-27T09:17:21Z" data-provider="map" finished-at="2020-02-27T09:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="5426" started-at="2020-02-27T09:17:26Z" data-provider="map" finished-at="2020-02-27T09:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="8754" started-at="2020-02-27T09:17:31Z" data-provider="map" finished-at="2020-02-27T09:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="9383" started-at="2020-02-27T09:17:40Z" data-provider="map" finished-at="2020-02-27T09:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="6470" started-at="2020-02-27T09:17:49Z" data-provider="map" finished-at="2020-02-27T09:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="7183" started-at="2020-02-27T09:17:56Z" data-provider="map" finished-at="2020-02-27T09:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="4300" started-at="2020-02-27T09:18:03Z" data-provider="map" finished-at="2020-02-27T09:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="4400" started-at="2020-02-27T09:18:07Z" data-provider="map" finished-at="2020-02-27T09:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="7468" started-at="2020-02-27T09:18:12Z" data-provider="map" finished-at="2020-02-27T09:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="5055" started-at="2020-02-27T09:18:19Z" data-provider="map" finished-at="2020-02-27T09:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="5066" started-at="2020-02-27T09:18:24Z" data-provider="map" finished-at="2020-02-27T09:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="7161" started-at="2020-02-27T09:18:29Z" data-provider="map" finished-at="2020-02-27T09:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="9333" started-at="2020-02-27T09:18:36Z" data-provider="map" finished-at="2020-02-27T09:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="10158" started-at="2020-02-27T09:18:46Z" data-provider="map" finished-at="2020-02-27T09:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="7724" started-at="2020-02-27T09:18:56Z" data-provider="map" finished-at="2020-02-27T09:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="52048" started-at="2020-02-27T09:19:04Z" data-provider="map" finished-at="2020-02-27T09:19:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest(com.actiance.generics.CSVdata)[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="executeTest" duration-ms="75647" started-at="2020-02-27T09:19:56Z" data-provider="map" finished-at="2020-02-27T09:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.actiance.tests.CupsTestCases@71bbf57e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-02-27T09:21:11Z" finished-at="2020-02-27T09:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.actiance.tests.CupsTestCases -->
+    </test> <!-- CupsAutomation -->
+  </suite> <!-- CupsAutomationSuite -->
+</testng-results>

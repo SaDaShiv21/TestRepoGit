@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CupsAutomationSuite" parallel="false">
+
+	<parameter name="configPropertiesFile" value="./configFiles/config.properties" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="vantageIP" value="192.168.125.234" />
+	<parameter name="vantageUN" value="sysadmin" />
+	<parameter name="vantagePwd" value="facetime" />
+	<parameter name="ReviewerUN" value="reviewer" />
+	<parameter name="ReviewerPwd" value="facetime" />
+	<!-- Test Data location -->
+	<parameter name="cupstestdata" value=".\configFiles\CupsTestData.xlsx"></parameter>
+	<!-- Database Details -->
+	<parameter name="dbType" value="MSSQL" />
+	<parameter name="dbHost" value="192.168.117.26" />
+	<parameter name="dbName" value="CupsAutomation2" />
+	<parameter name="dbUN" value="sa" />
+	<parameter name="dbPwd" value="Cert@1234" />
+	
+	<test name="CupsAutomation" parallel="false" preserve-order="true">
+		<classes>
+			<class name="com.actiance.tests.CupsTestCases" />
+		    <!-- <class name="com.actiance.tests.CupsTestBase" /> -->
+		    <!-- <class name="com.actiance.generics.ClassName" /> -->
+
+		</classes>
+		
+	</test>
+</suite>
