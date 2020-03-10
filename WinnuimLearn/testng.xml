@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vantage UI Automation" parallel="false">
+
+	<parameter name="configPropertiesFile" value="./UtilityFiles/ConfigData.properties" />
+	<!-- <parameter name="vantageUser" value="sysadmin" />
+		 <parameter name="vantagePwd" value="facetime" /> -->
+	<!-- Enter Vantage and DB Details -->
+	<!-- <parameter name="dbHost" value="192.168.125.139" />
+	<parameter name="dbName" value="Aug2019Update1" /> -->
+	<!-- <parameter name="vantageIP" value="localhost" /> -->
+	<parameter name="vantageIP" value="192.168.121.149" />
+	<!-- <parameter name="serverID" value="41" /> -->
+
+	<test name="UI Automation Tests" parallel="false" preserve-order="true">
+		<!-- <classes>
+		  <class name="SadaTestCasePkg.SadaTestCls.java" />
+		  <class name="com.smarsh.tests.GroupsPageTests" />
+		</classes> -->
+	</test>
+
+</suite>
